@@ -138,3 +138,38 @@ button:hover:after {
   opacity: 1;
   right: 10px;
 }
+
+.sub-slider-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.sub-slider-block span {
+  display: block;
+  width: 40%;
+  height: 2px;
+  background-color: grey;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-slider-block img,
+h3 {
+  color: grey;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-slider-block > div {
+  width: 15%;
+}
+
+.sub-slider-block > div:hover h3 {
+  color: rgb(175, 160, 141);
+}
+
+.sub-slider-block > div:hover span {
+  background-color: rgb(175, 160, 141);
+}
