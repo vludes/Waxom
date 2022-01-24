@@ -706,6 +706,7 @@ h3 {
   color: rgb(85, 85, 85);
   font-size: 14px;
   padding: 15px;
+  cursor: auto;
 }
 
 .pre-footer h3 {
@@ -794,14 +795,17 @@ footer > div {
 footer > div > div {
   height: 9px;
   width: 1px;
-  background-color: aliceblue;
+  background-color: rgb(75, 75, 75);
   display: inline-block;
 }
 
-footer > div > span,
-div {
+footer > div > span {
   margin: 0 5px;
   cursor: pointer;
+}
+
+footer > div > div {
+  margin: 0 5px;
 }
 
 .highlight {
